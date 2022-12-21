@@ -1,0 +1,36 @@
+.aside__component {
+  background: #2a3139;
+  transition: all .3s ease;
+  z-index: 888;
+  height: 100%;
+
+  .logo {
+    padding: 8px 20px 5px;
+    color: #fff;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .menu__controler {
+    width: 20px;
+    right: -20px;
+    height: 100%;
+    top: 0;
+    cursor: pointer;
+
+    .icon__outer {
+      width: 20px;
+      height: 50px;
+      background: #001529;
+      border-radius: 0 3px 3px 0;
+      transition: all .5s ease;
+    }
+
+    .icon__outer__Collapsed {
+      transform: rotate(180deg);
+      transition: all .5s ease;
+    }
+  }
+}

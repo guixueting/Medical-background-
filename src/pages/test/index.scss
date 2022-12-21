@@ -1,0 +1,77 @@
+.test {
+  padding: 0 20px;
+
+  .divider {
+    .num-badge {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #4f8cff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+      margin-right: 10px;
+      color: #fff;
+    }
+  }
+
+  .card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+
+    .tag {
+      padding: 8px;
+    }
+
+    .header {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 20px 10px 30px;
+    }
+  }
+
+  .prodect {
+    padding: 0 0 10px;
+  }
+
+  .table-content {
+    margin: 10px 20px;
+    border: 1px solid #ccc;
+  }
+
+
+  .table-header {
+    width: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+
+
+    div {
+      flex: 1;
+      font-size: 12px;
+      padding: 5px 0 5px 15px;
+    }
+  }
+
+  .table-input {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    padding-right: 15px;
+
+    div {
+      padding-left: 15px;
+      flex: 1;
+    }
+  }
+
+  .add-content {
+    .add-btn {
+      top: 30px;
+      right: 30px;
+    }
+  }
+
+}

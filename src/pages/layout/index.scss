@@ -1,0 +1,30 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+
+  .main__content {
+    height: 100%;
+
+    .layout__container {
+      position: relative;
+      min-width: 800px;
+      // padding: 0 20px 0;
+      overflow-y: auto;
+
+      .alert__content {
+        top: 80px;
+        position: fixed;
+        width: calc(100% - 240px);
+      }
+    }
+
+    .layout__content {
+      // min-height: 80%;
+      // border-radius: 10px;
+      // padding: 30px;
+      // box-sizing: content-box;
+      // margin: 10px 20px;
+    }
+  }
+
+}
